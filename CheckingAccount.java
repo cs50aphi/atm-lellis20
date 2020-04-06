@@ -13,6 +13,10 @@ public class CheckingAccount {
     }
     public double withdrawChecking(double withdrawal)
     {
+        if (withdrawal > balance)
+        {
+            return -1;
+        }
         balance -= withdrawal;
         return balance;
     }
