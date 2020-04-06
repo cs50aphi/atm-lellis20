@@ -20,7 +20,7 @@ public class CheckingAccount {
         balance -= withdrawal;
         return balance;
     }
-    public double depostChecking(double deposit)
+    public double depositChecking(double deposit)
     {
         balance += deposit;
         return balance;
