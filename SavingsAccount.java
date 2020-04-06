@@ -2,10 +2,7 @@
 public class SavingsAccount
 {
     private double saveBalance;
-    public SavingsAccount()
-    {
-        saveBalance = 100;
-    }
+
     public SavingsAccount(double userSpec)
     {
         saveBalance = userSpec;
@@ -19,7 +16,7 @@ public class SavingsAccount
         saveBalance -= withdrawal;
         return saveBalance;
     }
-    public double depostSaving(double deposit)
+    public double depositSaving(double deposit)
     {
         saveBalance += deposit;
         return saveBalance;
